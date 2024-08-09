@@ -2,7 +2,7 @@
 
 Created by Lucas Xu, highschool intern at the University of Alberta: July 2 - August 9
 
-A python tkinter user interface designed to visualize the number of people in each room. Floorplans can be uploaded and rooms can be drawn out and customized, data regarding the number of people in each room can be uploaded. This application is used in conjunction with a program that can detect the number of people in ecah room based off their current wifi strength of one or more access points
+A python tkinter user interface designed to visualize the number of people in each room. The purpose is so that energy can then be more efficiently allocated and saved based off this data. Floorplans can be uploaded and rooms can be drawn out and customized, data regarding the number of people in each room can be uploaded. This application is used in conjunction with a program that can detect the number of people in ecah room based off their current wifi strength of one or more access points
 
 Due to time restrictions, some featuers have not been implemented that would increase user friendliness, as well as a lack of aestheticness
 
