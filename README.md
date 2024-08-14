@@ -6,6 +6,10 @@ A python tkinter user interface designed to visualize the number of people in ea
 
 Due to time restrictions, some featuers have not been implemented that would increase user friendliness, as well as a lack of aestheticness
 
+## Changelog
+- changed roomdata/savestate format from `[ id, coords ]` to  `[ id, name, coords ]`
+- added helper function for asking user input repeatetly until its valid
+
 ## Usage
 
 You can upload a series of floorplans all under a directory with `Upload Directory`, a single image with `Upload Image`, and as well as data that can be matched with room IDs with `Upload Data`
