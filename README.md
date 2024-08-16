@@ -6,6 +6,11 @@ A python tkinter user interface designed to visualize the number of people in ea
 
 Due to time restrictions, some featuers have not been implemented that would increase user friendliness, as well as a lack of aestheticness
 
+!["Close shape tooltip"](docs/close_shape_tooltip.png)
+!["Hover tooltip"](docs/hover_tooltip.png)
+!["Delete in progress shape tooltip"](docs/delete_in_progress_shape_tooltip.png)
+
+
 ## Changelog
 - changed roomdata/savestate format from `[ id, coords ]` to  `[ id, name, coords ]`
 - added helper function for asking user input repeatetly until its valid
