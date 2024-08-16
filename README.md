@@ -27,7 +27,6 @@ Due to time restrictions, some featuers have not been implemented that would inc
 ### TODO soon
 - visualize the snapping radius. Maybe draw circles on each vertex corner. When shifting (not snapping), turn them off. Or maybe make a second hotkey to show, such as alt.
 - Show the name of the floor you are currently editing somewhere (titlebar?)
-- fix the hourly occupancy visualization part.
 
 ## Usage
 
