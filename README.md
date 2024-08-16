@@ -15,6 +15,9 @@ Due to time restrictions, some featuers have not been implemented that would inc
 - removed savestate and now only use rooms (pd.DataFrame). No need for both, they hold the same state
 - changed vertices to be a np.array
 - added Enums for ShiftState and DrawingState
+- added tooltips for deleting shapes, creating shapes, and restarting a shape
+- fixed hovering and changed it from a label to the top to a tooltip
+- broke and then fixed the hourly occupancy visualization. Now all id's must be ints!!!
 
 ### TODO soon
 - visualize the snapping radius. Maybe draw circles on each vertex corner. When shifting (not snapping), turn them off. Or maybe make a second hotkey to show, such as alt.
