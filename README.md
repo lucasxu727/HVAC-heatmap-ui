@@ -9,6 +9,17 @@ Due to time restrictions, some featuers have not been implemented that would inc
 ## Changelog
 - changed roomdata/savestate format from `[ id, coords ]` to  `[ id, name, coords ]`
 - added helper function for asking user input repeatetly until its valid
+- standardized that all coordinates are in json format (0,0) topleft and (1,1) bottomright of the image.
+- fixed snapping
+- broke hovering (who actually cares though lmao)
+- removed savestate and now only use rooms (pd.DataFrame). No need for both, they hold the same state
+- changed vertices to be a np.array
+- added Enums for ShiftState and DrawingState
+
+### TODO soon
+- visualize the snapping radius. Maybe draw circles on each vertex corner. When shifting (not snapping), turn them off. Or maybe make a second hotkey to show, such as alt.
+- Show the name of the floor you are currently editing somewhere (titlebar?)
+- fix the hourly occupancy visualization part.
 
 ## Usage
 
