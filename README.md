@@ -23,6 +23,13 @@ Due to time restrictions, some featuers have not been implemented that would inc
 - added tooltips for deleting shapes, creating shapes, and restarting a shape
 - fixed hovering and changed it from a label to the top to a tooltip
 - broke and then fixed the hourly occupancy visualization. Now all id's must be ints!!!
+- added shortcuts:
+	- 1 - idle mode (info mode - hovering over shapes gives info)
+	- 2 - paint mode (right click to draw shapes)
+	- 3 - erase mode (right click to erase shape)
+- other keybinds:
+- d - erase hovered shape (works in each mode)
+- left shift - disable snapping while held down (paint mode only)
 
 ### TODO soon
 - visualize the snapping radius. Maybe draw circles on each vertex corner. When shifting (not snapping), turn them off. Or maybe make a second hotkey to show, such as alt.
